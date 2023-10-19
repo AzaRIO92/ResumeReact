@@ -1,0 +1,129 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    margin-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header_left {
+    width: 40%;
+    padding: 40px 40px;
+    
+}
+.header_left img {
+    width: 60%;
+    border: 2px solid black;
+    border-radius: 100px;
+    margin-left: 22px;
+}
+
+.header_left h2 {
+    width: 60%;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 36px;
+    padding: 20px;
+    background-color: wheat;
+    transition: 4s;
+    cursor: pointer;    
+}
+
+.header_left h2:hover {
+    transform: scale(0.8);
+    background-color: blueviolet;
+    transition: transform 0.4s ease-in-out, background-color 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+
+
+.header_left p {
+    width: 60%;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+    background-color: wheat;
+    transition: 4s;
+    cursor: pointer;
+}
+
+.header_left p:hover {
+    transform: scale(0.8);
+    background-color: blueviolet;
+    transition: transform 0.4s ease-in-out, background-color 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.header_right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.header_right > h1 {
+    font-size: 70px;
+}
+
+.header_right > p {
+    font-size: 37px;
+    margin-top: -20px;
+}
+.head_menu_rigth {
+    width: 50%;
+}
+.head_right_item > h5 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.head_right_item > p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.header_menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.head_menu_left {
+    width: 50%;
+    flex-basis: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 5px 20px gray;
+    transition: 0.2s;
+}
+
+.head_menu_left:hover{
+    box-shadow: none;
+}
+
+.head_left_item > h5 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.head_left_item > p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.head_menu_right {
+    width: 50%;
+    flex-basis: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 5px 20px gray;
+    transition: 0.2s;
+}
+
+.head_menu_right:hover{
+    box-shadow: none;
+}
